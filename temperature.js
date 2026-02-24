@@ -1,3 +1,4 @@
+//---for terminal user input
 // const readline = require("readline");
 //
 // const rl = readline.createInterface({
@@ -12,12 +13,14 @@
 //
 //   rl.close();
 // });
+//------for browser user input
 // const celsius = prompt("Enter temperature in Celsius:");
 // const fahrenheit = (celsius * 9) / 5 + 32;
 //
 // console.log("Fahrenheit:", fahrenheit);
+//normal solution
 const celsius = 2;
-
+//check input typeof
 if (typeof celsius !== "number") {
   console.log("enter valid number");
 } else {
